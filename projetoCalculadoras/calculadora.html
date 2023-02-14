@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Juros Compostos</title>
+   <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1>Calculadora de Juros Compostos</h1>
+      <div class="calculator">
+        <input type="number" id="initialAmount" placeholder="Valor Inicial" />
+        <input type="number" id="interestRate" placeholder="Taxa de Juros %" />
+        <input type="number" id="timePeriod" placeholder="Período (em meses)" />
+        <p id="result"></p>
+        <button id="calculate">Calcular</button>
+        <button id="info">Mais Informações</button>
+      </div>
+      <div id="infoSection">
+        <p>Os juros compostos são uma forma de calcular juros sobre juros, ou seja, a cada período de tempo, os juros são calculados não somente sobre o capital inicial, mas também sobre os juros acumulados até aquele momento. Isso resulta em uma taxa de juros efetiva maior, aumentando significativamente o montante final do investimento ao longo do tempo. </p>
+        <p>A fórmula para calcular juros compostos é a seguinte:</p>
+        <p><b>Montante = capital * (1 + juros/100)^tempo</p></b>
+        <p>Onde:</p>
+        <ul>
+          <li><b>Capital</b> é o valor inicial investido.</li>
+          <li><b>Juros</b> é a taxa de juros em porcentagem.</li>
+          <li><b>Tempo</b> é o período de tempo em meses.</li>
+        </ul>
+      </div>
+</div>
+<script src="js/program.js" defer></script>
+<body>
+    <html>
+</body>
